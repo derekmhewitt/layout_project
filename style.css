@@ -1,3 +1,100 @@
+* {
+  outline: 5px dashed orange;
+  height:20px;
+  width:20px;
+}
+
 body {
-  
+  background: gray;
+}
+
+.container{
+  position: relative;
+  padding: 50px;
+  border:10px:
+  height: 400px;
+  width: 500px;
+}
+
+.box100x400{
+  position: absolute;
+  height: 400px;
+  width: 100px;
+  background: blue;
+}
+
+.boxTop400x100{
+  position: absolute;
+  height: 100px;
+  width: 400px;
+  background: green;
+  float:right;
+  margin: 0px 0px 0px 100px;
+}
+
+.box200x100{
+  position: absolute;
+  height: 100px;
+  width: 200px;
+  background: red;
+  float: left;
+}
+
+.boxTwo200x100{
+  position: absolute;
+  height: 100px;
+  width: 200px;
+  background: red;
+  float: left;
+  margin-left: 200px;
+}
+
+.box100x100{
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  background: purple;
+  float: left;
+}
+
+.boxTwo100x100{
+  margin-left: 100px;
+  height: 100px;
+  width: 100px;
+  float: left;
+}
+
+.boxThree100x100{
+  margin-left: 200px;
+  height: 100px;
+  width: 100px;
+  float: left;
+}
+
+.boxFour100x100{
+  margin-left: 300px;
+  height: 100px;
+  width: 100px;
+  float: left;
+}
+
+.boxBtm400x100{
+  position: absolute;
+  height: 100px;
+  width: 400px;
+  background: green;
+  float:right;
+  margin: 300px 0px 0px 100px;
+}
+
+.secondRow{
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 100px;
+}
+
+.thirdRow{
+  position: absolute;
+  margin-top: 200px;
+  margin-left: 100px;
 }
